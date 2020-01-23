@@ -1,0 +1,7 @@
+version: "2"
+domain: thrawny.com
+repo: github.com/jrthrawny/kube-object-exporter
+resources:
+- group: exporter
+  version: v1alpha1
+  kind: ObjectExporter

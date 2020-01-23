@@ -1,0 +1,7 @@
+apiVersion: exporter.thrawny.com/v1alpha1
+kind: ObjectExporter
+metadata:
+  name: objectexporter-sample
+spec:
+  # Add fields here
+  foo: bar
